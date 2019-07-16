@@ -1,0 +1,5 @@
+text:runMain Problems.Launcher Mux2
+text:runMain problems.Launcher Mux2
+exit
+testOnly max.Cube
+testOnly max.CubeTester

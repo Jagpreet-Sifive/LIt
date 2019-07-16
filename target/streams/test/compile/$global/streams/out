@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/home/jagpreets/LIt/src/test/scala/max/CubeTester.scala:8:20: not found: type Cube[0m
+[0m[[0m[31merror[0m] [0m[0mclass CubeTester(c:Cube) extends PeekPokeTester(c){[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jagpreets/LIt/src/test/scala/max/CubeTester.scala:8:34: too many arguments for constructor Object: ()Object[0m
+[0m[[0m[31merror[0m] [0m[0mclass CubeTester(c:Cube) extends PeekPokeTester(c){[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jagpreets/LIt/src/test/scala/max/CubeTester.scala:15:2: not found: value poke[0m
+[0m[[0m[31merror[0m] [0m[0m poke(c.io.a ,a)[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jagpreets/LIt/src/test/scala/max/CubeTester.scala:17:2: not found: value step[0m
+[0m[[0m[31merror[0m] [0m[0m	step(1)[0m
+[0m[[0m[31merror[0m] [0m[0m	^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jagpreets/LIt/src/test/scala/max/CubeTester.scala:19:1: not found: value expect[0m
+[0m[[0m[31merror[0m] [0m[0mexpect(c.io.out ,(a*a*a))[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/jagpreets/LIt/src/test/scala/max/CubeTester.scala:21:25: not found: type Cube[0m
+[0m[[0m[31merror[0m] [0m[0massert(Driver(() => new Cube) {c => new CubeTester(c)})[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
