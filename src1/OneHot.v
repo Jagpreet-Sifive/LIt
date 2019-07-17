@@ -1,0 +1,17 @@
+module OneHot( // @[:@3.2]
+  input        clock, // @[:@4.4]
+  input        reset, // @[:@5.4]
+  input  [3:0] io_in0, // @[:@6.4]
+  input  [3:0] io_in1, // @[:@6.4]
+  input  [3:0] io_in2, // @[:@6.4]
+  input  [3:0] io_in3, // @[:@6.4]
+  output [1:0] io_q0, // @[:@6.4]
+  output [1:0] io_q1 // @[:@6.4]
+);
+  wire [3:0] _T_17; // @[One_hot.scala 16:20:@8.4]
+  wire [3:0] _T_18; // @[One_hot.scala 17:20:@10.4]
+  assign _T_17 = io_in3 | io_in1; // @[One_hot.scala 16:20:@8.4]
+  assign _T_18 = io_in3 | io_in2; // @[One_hot.scala 17:20:@10.4]
+  assign io_q0 = _T_17[1:0]; // @[One_hot.scala 16:11:@9.4]
+  assign io_q1 = _T_18[1:0]; // @[One_hot.scala 17:11:@11.4]
+endmodule
