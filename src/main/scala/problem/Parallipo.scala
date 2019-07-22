@@ -1,10 +1,13 @@
+/* parallel input parallel output using Registers in chisel  **/
+
+package problem
 import chisel3._
 
 import chisel3.util.Cat
 
 
 class Parallipo extends Module{
-
+/* input q0,q1,q2; output Cat(r0,r1,r2) */ 
   val io =IO(new Bundle {
      val q0 =Input(UInt(4.W))
      val q1  =Input(UInt(4.W))
@@ -21,3 +24,4 @@ class Parallipo extends Module{
  object Parallipo extends App{
   chisel3.Driver.execute(args, ()=>new Parallip)
 
+}
