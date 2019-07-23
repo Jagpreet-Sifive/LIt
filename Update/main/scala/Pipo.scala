@@ -10,13 +10,13 @@ import chisel3.util.Cat
    val out =Output(UInt(4.W))
  })
 
- /* all registers init. with '0' value  
+ /* all registers init. with '0' value  */
    val r0 = RegInit(0.U(1.W))
    val r1 =RegInit(0.U(1.W))
    val r2 =RegInit(0.U(1.W))
    val r3 =RegInit(0.U(1.W))
  
-// 
+
      r0 := RegNext(io.in)
     r1 := RegNext(r0)
     r2 := RegNext(r1)
