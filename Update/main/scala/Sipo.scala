@@ -8,9 +8,9 @@ import chisel3.util.Cat
 class Sipo extends Module {
 
 val io =IO(new Bundle{ 
-    val in = Input(UInt(4.W))
+    val in = Input(UInt(1.W))
 
-    val out =Output(UInt(4.W))
+    val out =Output(UInt(1.W))
 }) 
     val r0 = RegInit(0.U(1.W)) 
     val r1 =RegInit(0.U(1.W))
