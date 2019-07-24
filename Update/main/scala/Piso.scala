@@ -7,9 +7,9 @@ import chisel3.util
 class Piso extends Module{
 
  val io =IO(new Bundle{
-   val in = Input(UInt(4.W))
+   val in = Input(UInt(1.W))
    val enable  = Input(Bool())     // enable block which helps to update reg. value  change of mode (H to L) oR (L to H))
-   val out =Output(UInt(4.W))
+   val out =Output(UInt(1.W))
  })
 /* all register's wil init. with 0 value */
    val r0 = RegInit(0.U(1.W))
