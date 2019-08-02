@@ -1,5 +1,7 @@
 /*Parallel in Serial Out Shift Register */
 
+package examples
+
 import chisel3._
 import chisel3.util
 

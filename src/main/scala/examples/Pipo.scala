@@ -1,5 +1,7 @@
 /* Parallel Input Parallel Output shift Register  */ 
 
+package examples
+
 import chisel3._
 import chisel3.util.Cat
 

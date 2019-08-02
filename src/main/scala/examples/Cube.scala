@@ -1,6 +1,7 @@
 /* Calculate  LSA = Lateral Surface Area of a Cube, SA = Surface Area  And Volume */ 
 /* LSA= 6*a*a ; SA = 4*a*a ; Volume = a*a*a */ 
 
+ package examples
 
 import chisel3._
 import chisel3.util._

@@ -1,5 +1,6 @@
 /* Serial in parallel out data shift register  */ 
 
+package examples
 
 import chisel3._
 import chisel3.util.Cat

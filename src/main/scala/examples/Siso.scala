@@ -1,5 +1,7 @@
 /*  Serial input ,Serial Output  shift register */ 
 
+package examples
+
 import chisel3._
 import chisel3.util 
 

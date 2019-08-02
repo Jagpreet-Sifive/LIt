@@ -1,6 +1,7 @@
 /* Compare two sign Integer using when & otherwise block */
 /*a= 10, b = 32   ex => when(a>b){ output= a} .otherwise{ output = b}  */
 
+package examples
 import chisel3.util._
 import chisel3._
 

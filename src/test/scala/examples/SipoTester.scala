@@ -1,4 +1,6 @@
-improt chisel3._
+package examples
+
+import chisel3._
 import chisel3.iotesters.{ChiselFlatSpec , Driver ,PeekPokeTester}
 import scala.util.Random
 
